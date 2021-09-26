@@ -1,0 +1,10 @@
+export LANG=en_US.UTF-8
+export LC_MESSAGES="C"
+
+export PATH=$HOME/.bin/scripts:$HOME/.local/bin:/usr/local/bin:$PATH
+export EDITOR='emacs' ALTERNATE_EDITOR='nano' VISUAL='emacs'
+
+# Bash History
+export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
+export HISTCONTROL=ignoreboth
+export HISTIGNORE='&:clear:ls:cd:[bf]g:exit:[ t\]*'
